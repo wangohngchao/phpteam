@@ -1,0 +1,38 @@
+ .left {
+        height: 30px;
+        line-height: 30px;
+        font-size: 14px;
+        width:37%;
+        float:left;
+        text-indent:6px; 
+    }
+
+    .select_1 {
+        width:59%;
+        height: 32px;
+        line-height:32px;
+        outline:none;   
+        display:block;
+        font-family:"微软雅黑";
+    }
+
+    .form_class, .form_option{
+        margin-top: 30px;
+    }
+
+    .clear{
+        clear:both;
+    }
+    .submit1 {
+        margin-top: 40px;
+        width: 100%;
+        height: 40px;
+        line-height: 40px;
+        background-color: #EA0000;
+        color: white;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+    #person{
+        display: none;
+    }

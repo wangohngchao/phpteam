@@ -1,0 +1,129 @@
+* {
+margin: 0px;
+padding: 0px;
+}
+
+ul, li {
+list-style: none;
+}
+
+a {
+display: block;
+text-decoration: none;
+cursor: pointer;
+color: #FF647C;
+}
+
+a:active {
+color: inherit !important;
+}
+
+ul, ol, li {
+list-style: none;
+}
+
+img {
+width: 100%;
+vertical-align: bottom;
+}
+
+body {
+font-size: 12px;
+font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+color: #333;
+background: #fff;/*设置整体的背景颜色*/
+}
+
+body, header, footer {/*设置头部和脚步*/
+padding: 0;
+min-width: 300px;
+max-width: 640px;
+margin: 0 auto;
+}
+
+header {
+border-bottom:1px solid #dcdcdc;
+height: 58px;
+width: 100%;
+z-index: 1000;
+}
+
+header:after, header:before {
+content: "";
+display: table;
+clear: both;
+}
+
+
+/* 定义主体内容 */
+.content {
+margin: 0 auto;
+padding: 47px 0 55px 0;
+}
+
+header img{
+width:50%; 
+height:47px;
+line-height:47px;
+padding:10px 0;
+
+}
+.content form .info{
+text-indent:24px;
+font-family: "微软雅黑";
+font-size:12px;
+line-height:25px;
+height:25px;
+margin-left:20px;
+color:  #778899;
+}
+
+.name,.num{
+height: 34px;
+line-height: 34px;
+display: block;
+width:90%;
+margin: auto;
+text-indent:26px;
+margin-bottom:28px;
+border-color:#ddd;
+outline:none;
+}
+
+.radio{
+width:69%;
+margin:0 auto;
+margin-bottom:20px;
+height:30px;
+
+}  
+.teacher,.student{
+line-height:30px;
+height:20px;
+width:20px;
+margin:4px 0px;
+float:left;
+margin-left:15%;
+
+}
+
+
+.radio label{
+font-size: 14px;
+font-family: "微软雅黑";
+line-height:30px;
+height:30px;    
+float:left;
+}
+.submit{
+margin:0 auto;
+width:90%;
+height:40px;
+line-height:40px;
+background:red;
+color:white;
+font-size: 20px;
+font-family: "微软雅黑";
+display:block;
+border-radius:8px;
+}
